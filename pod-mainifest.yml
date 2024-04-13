@@ -3,4 +3,5 @@ kind: Pod
 metadata: 
     name: eb-ms
     labels: 
-      env: UAT
+      env: UAT-env
+      app: 
