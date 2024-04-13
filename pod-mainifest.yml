@@ -5,7 +5,7 @@ metadata:
     labels: 
       env: UAT-env
       app: eb-ms-app
-    namespace: UAT
+    namespace: uat
 spec: 
   containers:
     - name: eb-ms-instance
