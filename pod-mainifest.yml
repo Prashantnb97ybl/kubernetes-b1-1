@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata: 
-    name: eb-ms
+    name: eb-ms-pod
     labels: 
       env: UAT-env
       app: eb-ms-app
-      
