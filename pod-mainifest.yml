@@ -6,5 +6,5 @@ metadata:
       env: UAT-env
       app: eb-ms-app
     namespace: prod
-spec
+spec: 
 
