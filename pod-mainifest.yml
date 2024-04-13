@@ -9,4 +9,5 @@ metadata:
 spec: 
   containers:
     - name: eb-ms-instance
-    
+      image: nginx
+      
