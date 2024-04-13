@@ -5,3 +5,4 @@ metadata:
     labels: 
       env: UAT-env
       app: eb-ms-app
+      
