@@ -14,7 +14,7 @@ spec:
         - name: http
           containerPort: 80
     - name: eb-tomcat-instance
-      image: nginx
+      image: tomcat
       ports:
         - name: http
           containerPort: 80
