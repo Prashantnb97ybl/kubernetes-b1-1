@@ -62,4 +62,4 @@ spec:
 ...
 
 # kubectl apply -f rs.manifest.yml
-# 
+# kubectl get all
