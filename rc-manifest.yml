@@ -14,7 +14,7 @@ spec:  # we specify the pods, pods template.
         labels: 
           env: uat-env
           app: eb-ms-app 
-#        namespace: uat
+        # namespace: uat
     spec: 
       containers:
         - name: eb-ms-nginx-instance
