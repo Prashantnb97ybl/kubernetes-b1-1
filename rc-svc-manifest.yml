@@ -67,3 +67,5 @@ spec:
 # kubectl get all  ---> all 3 pods are running trying to delte one pod
 # kubectl delete pod <pod-name>
 # kubectl get all ---> STATUS: New pod is creating
+
+## we can change replica
