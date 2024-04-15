@@ -61,4 +61,5 @@ spec:
     #   targetPort: 8080
 ...
 
-# kubectl apply -f 
+# kubectl apply -f rs.manifest.yml
+# 
