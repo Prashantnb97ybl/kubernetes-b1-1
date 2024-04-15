@@ -69,3 +69,4 @@ spec:
 # kubectl apply -f deployment-manifest.yml
 # kubectl get all
 # deployment manage: strategy, but existing have a ReplicaSet and we are applying the Deployment, deployment will not apply the ReplicaSet
+# minikube ssh
