@@ -66,3 +66,4 @@ spec:
 # curl <node-ip>:<Node-port>
 # kubectl get all  ---> all 3 pods are running trying to delte one pod
 # kubectl delete pod <pod-name>
+# kubectl get all --->
