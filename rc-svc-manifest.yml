@@ -61,4 +61,4 @@ spec:
 ...
 
 # kubectl apply -f rc-svc-manifest.yml
-# kbectl get all -->
+# kbectl get all --> shows the rc count
