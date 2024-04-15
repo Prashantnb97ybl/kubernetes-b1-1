@@ -69,3 +69,5 @@ spec:
 # kubectl get all ---> STATUS: New pod is creating
 
 ## we can change replica's count
+
+# kubectk
