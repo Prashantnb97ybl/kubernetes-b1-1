@@ -1,5 +1,5 @@
 # Providing rolling update strategy
-# strategy type in deployment in kubernetes --> search & diffrences !!
+# strategy type in deployment in kubernetes --> search & diffrences !! Default are in below
   # 1. Recreate Deployment  --> delete and re-create
   # 2. Rolling update  --> update in sprint by sprint not at once
 # Here ReplicaSet is enwrapped into deployment like, containers wrapped --> into pod 
