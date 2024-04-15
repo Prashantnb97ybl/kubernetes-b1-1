@@ -1,2 +1,3 @@
 # Providing rolling update strategy
 # Here ReplicaSet is enwrapped into deployment like, containers wrapped --> into pod 
+# replica
