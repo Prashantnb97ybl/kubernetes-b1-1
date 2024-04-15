@@ -40,7 +40,7 @@ spec:  # we specify the pods, pods template.
 apiVersion: v1
 kind: Service
 metadata:
-  name: eb-ms-pod-service
+  name: bgmi-ms-pod-service
   labels:
     env: uat-env
     app: eb-ms-app 
