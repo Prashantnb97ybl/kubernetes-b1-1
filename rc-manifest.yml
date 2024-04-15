@@ -4,6 +4,8 @@ kind: apiVersion: v1
 kind: ReplicationController
 metadata:
   name: eb-ms-rc
+  labels:
+    app
 spec:
   replicas: <Replicas>
   selector:
