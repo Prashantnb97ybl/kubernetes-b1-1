@@ -7,7 +7,7 @@ metadata:
   labels:
     app: em-ms-app
 # here we didn't specify the namespace, get default
-spec:  # we specify the pods, pods template so I directly copy the pods details from pod-manifest.yml file
+spec:  # we specify the pods, pods template so I directly copy the pods details from pod-manifest.yml file, from metadata
   replicas: <Replicas>
   selector:
     app: myapp
