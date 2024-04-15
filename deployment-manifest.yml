@@ -1,7 +1,7 @@
 # Providing rolling update strategy
 # strategy type in deployment in kubernetes --> search & diffrences !!
   # 1. Recreate Deployment  --> delete and re-create
-  # 2. Rolling update  --> 
+  # 2. Rolling update  --> update in sprint by sprint not at once
 # Here ReplicaSet is enwrapped into deployment like, containers wrapped --> into pod 
 # ReplicatSet managed the deployment, here i am copyin the whole rs-manifest.yml file into deployment-manifest.yml
 apiVersion: apps/V1
