@@ -9,17 +9,17 @@ metadata:
 # here we didn't specify the namespace, get default
 spec:  # we specify the pods, pods template so I directly copy the pods details from pod-manifest.yml file, from metadata
   template:
-  replicas: <Replicas>
-  selector:
-    app: myapp
-  template:
-    metadata:
-      name: myapp
-      labels:
-        app: myapp
-    spec:
-      containers:
-        - name: myapp
-          image: <Image>
-          ports:
-            - containerPort: <Port>
+    replicas: <Replicas>
+    selector:
+      app: myapp
+    template:
+      metadata:
+        name: myapp
+        labels:
+          app: myapp
+      spec:
+        containers:
+          - name: myapp
+            image: <Image>
+            ports:
+              - containerPort: <Port>
