@@ -5,7 +5,7 @@ kind: ReplicationController
 metadata:
   name: eb-ms-rc
   labels:
-    app:
+    app: em-ms-app
 spec:
   replicas: <Replicas>
   selector:
