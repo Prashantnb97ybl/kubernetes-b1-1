@@ -1,4 +1,5 @@
 ---
+# rc-
 # kubectl api-resources | grep replication
 apiVersion: V1
 kind: ReplicationController
