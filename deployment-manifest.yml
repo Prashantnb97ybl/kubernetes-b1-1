@@ -72,4 +72,4 @@ spec:
 # minikube ssh
 # curl <node-ip>:NodePort  --> for svc ReplicaSet
 # curl <node-ip:<NodePort>  --->  
-# kubectl edit <rc-name>  --
+# kubectl edit <rc-name>  --> change the container image
