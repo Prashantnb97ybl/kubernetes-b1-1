@@ -1,2 +1,2 @@
 # kubectl api-resources | grep replication
-apiVersion:
+apiVersion: V1
