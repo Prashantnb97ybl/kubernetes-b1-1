@@ -73,4 +73,4 @@ spec:
 # w/o rc-manifest file
 # kubectl scale rc <rc-name> --replica 5  ---> command through we can also change
 # kubectl describe rc <rc-name> ----> detailed info about rc
-# kubectl edit rc <rc-name>
+# kubectl edit rc <rc-name>   --> actual implemented conf file of rc
