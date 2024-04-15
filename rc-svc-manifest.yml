@@ -60,6 +60,4 @@ spec:
     #   targetPort: 8080
 ...
 
-```shell
-
-```
+# kubectl apply -f rc-svc
