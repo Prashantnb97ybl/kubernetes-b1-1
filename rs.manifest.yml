@@ -63,4 +63,4 @@ spec:
 
 # kubectl apply -f rs.manifest.yml
 # kubectl get all
-# kubectl scale rs 
+# kubectl scale rs <rs-name> --replica 10
