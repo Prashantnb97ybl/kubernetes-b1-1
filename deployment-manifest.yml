@@ -1,5 +1,7 @@
 # Providing rolling update strategy
-# strategy type in deployment in kubernetes --> search h/w
+# strategy type in deployment in kubernetes --> search
+  # 1. Recreate Deployment
+  #
 # Here ReplicaSet is enwrapped into deployment like, containers wrapped --> into pod 
 # ReplicatSet managed the deployment, here i am copyin the whole rs-manifest.yml file into deployment-manifest.yml
 apiVersion: apps/V1
