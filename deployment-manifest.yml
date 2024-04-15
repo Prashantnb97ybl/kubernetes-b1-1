@@ -1,5 +1,5 @@
 # Providing rolling update strategy
-# strategy type in deployment in kubernetes --> search
+# strategy type in deployment in kubernetes --> search & diffrences !!
   # 1. Recreate Deployment
   # 2. Rolling update 
 # Here ReplicaSet is enwrapped into deployment like, containers wrapped --> into pod 
