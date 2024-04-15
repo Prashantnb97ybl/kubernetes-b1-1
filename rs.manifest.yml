@@ -11,7 +11,7 @@ metadata:
 spec:  # we specify the pods, pods template.
   replicas: 3 # creating the 3 replica of pod
   selector:  # here we mention the label to refer the pod
-    app: eb-ms-app
+    app: bgmi-ms-app
   template: #so I directly copy the pods details from pod-manifest.yml file, from metadata
     metadata: 
         name: eb-ms-pod
