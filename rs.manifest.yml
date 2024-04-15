@@ -9,7 +9,7 @@ kind: ReplicaSet
 metadata:
   name: eb-ms-rs
   labels:
-    app: em-ms-app
+    app: bgmi-ms-app
 # here we didn't specify the namespace, get default
 spec:  # we specify the pods, pods template.
   replicas: 3 # creating the 3 replica of pod
