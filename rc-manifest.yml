@@ -13,7 +13,7 @@ spec:  # we specify the pods, pods template.
         name: eb-ms-pod
         labels: 
           env: uat-env
-          app: eb-ms-app
+          app: eb-ms-app 
 #        namespace: uat
     spec: 
       containers:
