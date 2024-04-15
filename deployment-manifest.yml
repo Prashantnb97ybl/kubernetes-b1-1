@@ -41,7 +41,7 @@ spec:  # we specify the pods, pods template.
 apiVersion: v1
 kind: Service
 metadata:
-  name: web-eb-ms-pod-service
+  name: web-eb-ms-pod-svc
   labels:
     env: uat-env
     app: eb-ms-app 
