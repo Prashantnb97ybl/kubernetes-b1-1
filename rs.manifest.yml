@@ -64,4 +64,4 @@ spec:
 # kubectl apply -f rs.manifest.yml
 # kubectl get all
 # kubectl scale rs <rs-name> --replica 10
-# kubectl get all
+# kubectl get all   ---> 5 replica is created of pod
