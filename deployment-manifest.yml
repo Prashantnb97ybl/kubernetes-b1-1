@@ -1,2 +1,2 @@
 # Providing rolling update strategy
-# here ReplicaSet is en
+# here ReplicaSet is en wrapped into deployment
