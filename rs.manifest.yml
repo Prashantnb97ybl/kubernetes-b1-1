@@ -17,7 +17,7 @@ spec:  # we specify the pods, pods template.
     app: bgmi-ms-app
   template: #so I directly copy the pods details from pod-manifest.yml file, from metadata
     metadata: 
-        name: bgmi-ms-app-ms-pod
+        name: bgmi-ms-app
         labels: 
           env: uat-env
           app: eb-ms-app 
