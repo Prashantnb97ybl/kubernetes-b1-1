@@ -33,3 +33,6 @@ spec:  # we specify the pods, pods template.
     app: eb-ms-app
 # now, on that pod we need a svc-manifest.yml fil because we need to expose the svc
 ...
+
+---
+
