@@ -17,7 +17,7 @@ spec:  # we specify the pods, pods template.
 #        namespace: uat
     spec: 
       containers:
-        - name: eb-ms-instance
+        - name: eb-ms-nginx-instance
           image: nginx
           ports:
             - name: http
