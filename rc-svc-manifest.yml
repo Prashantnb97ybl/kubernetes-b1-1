@@ -72,4 +72,4 @@ spec:
 
 # kubectl scale rc <rc-name> --replica 5  ---> command through we can also change
 # kubectl describe rc <rc-name> ----> detailed info about rc
-
+# kubectl
