@@ -10,7 +10,7 @@ metadata:
 # here we didn't specify the namespace, get default
 spec:  # we specify the pods, pods template.
   strategy:
-    type:  
+    type:  Rolling
   replicas: 3 # creating the 3 replica of pod
   selector:  # here we mention the label to refer the pod
     matchLabels:
