@@ -60,4 +60,5 @@ spec:
     #   targetPort: 8080
 ...
 
-# kubectl apply -f rc-svc-manifest
+# kubectl apply -f rc-svc-manifest.yml
+# kbectl get pods
