@@ -1,6 +1,6 @@
 # kubectl api-resources | grep replication
 apiVersion: V1
-kind: apiVersion: v1 
+# kind: apiVersion: v1 
 kind: ReplicationController
 metadata:
   name: eb-ms-rc
