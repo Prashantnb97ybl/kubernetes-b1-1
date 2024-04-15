@@ -28,4 +28,4 @@ spec:  # we specify the pods, pods template.
             #     - name: java
             #       containerPort: 8080
   replicas: 3 # creating the 3 replica of pod
-  selector:  # to refer the pod, here we mention the label
+  selector:  # here we mention the label to refer the pod,
