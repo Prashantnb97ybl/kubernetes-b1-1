@@ -1,4 +1,4 @@
-# svc-manifest
+# svc-manifest for NodePort
 apiVersion: v1
 kind: Service
 metadata:
