@@ -20,7 +20,7 @@ spec:  # we specify the pods, pods template.
         name: bgmi-ms-app
         labels: 
           env: uat-env
-          app: eb-ms-app 
+          app: bgm 
         # namespace: uat
     spec: 
       containers:
