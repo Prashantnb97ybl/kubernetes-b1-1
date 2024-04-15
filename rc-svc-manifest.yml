@@ -1,5 +1,5 @@
 ---
-# rc-
+# rc is reponsible to create a pod & maintaint the pod
 # kubectl api-resources | grep replication
 apiVersion: V1
 kind: ReplicationController
