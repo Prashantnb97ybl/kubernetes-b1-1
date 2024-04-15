@@ -76,3 +76,5 @@ spec:
 # try to hit deployment pods
 # try to hit replicaset pods
 # try to hit replicaiton controller pods
+
+w
