@@ -68,4 +68,4 @@ spec:
 
 # kubectl apply -f deployment-manifest.yml
 # kubectl get all
-# deployment manage: strategy, but existing have a 
+# deployment manage: strategy, but existing have a replica
