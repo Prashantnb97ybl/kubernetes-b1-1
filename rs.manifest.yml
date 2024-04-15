@@ -1,2 +1,4 @@
 # Diffrence between rc & replicaset
-# so there is no major diffrence will copy the rc file
+# so there is no major diffrence will copy the rc file --> rs.yml
+
+---
