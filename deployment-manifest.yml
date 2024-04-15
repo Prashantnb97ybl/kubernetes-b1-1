@@ -73,4 +73,4 @@ spec:
 # curl <node-ip>:NodePort  --> for svc ReplicaSet
 # curl <node-ip:<NodePort>  --->  
 # kubectl edit <rc-name>  --> try to change the container image
-# try to hit 
+# try to hit deployment pods
