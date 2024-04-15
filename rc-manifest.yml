@@ -30,4 +30,5 @@ spec:  # we specify the pods, pods template.
   replicas: 3 # creating the 3 replica of pod
   selector:  # here we mention the labelto refer the pod
     app: eb-ms-app
-# now, on that pod we need a svc-manifest
+# now, on that pod we need a svc-manifest.yml fil because we need to expose the svc
+
