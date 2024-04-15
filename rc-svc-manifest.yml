@@ -36,7 +36,7 @@ spec:  # we specify the pods, pods template.
 
 ---
 # copying svc-manifest.yml file
-# svc-manifest for Cluster-IP
+# svc-manifest for NodePort
 apiVersion: v1
 kind: Service
 metadata:
@@ -46,9 +46,9 @@ metadata:
     app: eb-ms-app 
   namespace: uat #<ns-name>
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
-    app: eb-ms-app # need to mention the app on which app to applied[app: eb-ms-app]
+    app: eb-ms-app #[app: eb-ms-app]
   ports:
     - name: http
       protocol: TCP
