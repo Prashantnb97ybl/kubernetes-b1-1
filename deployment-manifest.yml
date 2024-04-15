@@ -71,4 +71,4 @@ spec:
 # deployment manage: strategy, but existing have a ReplicaSet and we are applying the Deployment, deployment will not apply the ReplicaSet
 # minikube ssh
 # curl <node-ip>:NodePort  --> for svc ReplicaSet
-# curl <node->
+# curl <node-ip:NodePort>  ---
