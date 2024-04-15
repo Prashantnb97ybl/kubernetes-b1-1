@@ -67,4 +67,4 @@ spec:
 ...
 
 # kubectl apply -f deployment-manifest.yml
-# 
+# kubectl get all
