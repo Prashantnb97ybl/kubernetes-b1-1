@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: eb-ms-pod-service
   labels:
-    env: UAT-env
+    env: uat-env
     app: eb-ms-app 
   namespace: uat #mention name space name which is  already created
 spec:
