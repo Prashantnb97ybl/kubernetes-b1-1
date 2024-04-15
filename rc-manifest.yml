@@ -6,7 +6,7 @@ metadata:
   name: eb-ms-rc
   labels:
     app: em-ms-app
-# here we didn't specify the namespace so will take it as 
+# here we didn't specify the namespace, get default
 spec:
   replicas: <Replicas>
   selector:
