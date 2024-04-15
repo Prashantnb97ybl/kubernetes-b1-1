@@ -29,4 +29,5 @@ spec:  # we specify the pods, pods template.
             #       containerPort: 8080
   replicas: 3 # creating the 3 replica of pod
   selector:  # here we mention the labelto refer the pod
-    
+    app:
+
