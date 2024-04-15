@@ -64,4 +64,5 @@ spec:
 # kbectl get all --> shows the rc count
 # minikube ip  
 # curl <node-ip>:<Node-port>
-# kubectl get all  --
+# kubectl get all  ---> all 3 pods are running trying to delte one pod
+# kubectl delte
