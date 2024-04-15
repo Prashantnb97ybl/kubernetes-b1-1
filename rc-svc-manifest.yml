@@ -63,3 +63,4 @@ spec:
 # kubectl apply -f rc-svc-manifest.yml
 # kbectl get all --> shows the rc count
 # minikube ip  
+# curl 
