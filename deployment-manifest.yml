@@ -75,3 +75,4 @@ spec:
 # kubectl edit <rc-name>  --> try to change the container image
 # try to hit deployment pods
 # try to hit replicaset pods
+# try to hit replicaset pods
