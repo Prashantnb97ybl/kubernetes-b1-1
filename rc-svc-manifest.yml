@@ -35,4 +35,5 @@ spec:  # we specify the pods, pods template.
 ...
 
 ---
-# copying t
+# copying svc-manifest.yml file
+
