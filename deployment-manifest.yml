@@ -77,4 +77,4 @@ spec:
 # try to hit replicaset pods
 # try to hit replicaiton controller pods
 
-# work flow: container <-- pod <-- 
+# work flow: container <-- pod <-- replica
