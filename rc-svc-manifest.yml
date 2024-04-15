@@ -71,3 +71,4 @@ spec:
 ## we can change replica's count
 
 # kubectl scale rc <rc-name> --replica 5  ---> command through we can also change
+
