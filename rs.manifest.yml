@@ -7,7 +7,7 @@
 apiVersion: V1
 kind: ReplicaSet
 metadata:
-  name: eb-ms-rc
+  name: eb-ms-rs
   labels:
     app: em-ms-app
 # here we didn't specify the namespace, get default
