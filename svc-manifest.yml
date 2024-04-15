@@ -31,7 +31,7 @@ metadata:
     app: eb-ms-app 
   namespace: uat #<ns-name>
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: eb-ms-app # need to mention the app on which app to applied[app: eb-ms-app]
   ports:
