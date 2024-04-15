@@ -43,7 +43,7 @@ metadata:
   name: bgmi-ms-pod-service
   labels:
     env: uat-env
-    app: eb-ms-app 
+    app: bgmi-ms-app 
   # namespace: uat #<ns-name>
 spec:
   type: NodePort
