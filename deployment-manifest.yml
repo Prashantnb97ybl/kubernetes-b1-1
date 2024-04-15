@@ -66,4 +66,5 @@ spec:
     #   targetPort: 8080
 ...
 
-# kubectl apply -f de
+# kubectl apply -f deployment-manifest.yml
+# 
