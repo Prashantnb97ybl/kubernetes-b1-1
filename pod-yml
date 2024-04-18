@@ -1,17 +1,11 @@
 apiVersion: v1
-kind: pod
+kind: Pod
 metadata:
-  name: cb-bs-pod
-  labels:
-    env: uat-env
-    app: cb-bs-pod
-   namespace: prod 
+  name: nginx
 spec:
- containers: 
-    name: cb-bs-instance
-    image:nginx
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
     ports:
-        name:http
-        containerPort: 80
-
+    - containerPort: 80
 
